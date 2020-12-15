@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+
+.item {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }

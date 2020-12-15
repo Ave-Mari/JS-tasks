@@ -1,0 +1,50 @@
+
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.slider-container {
+    display: flex;
+    padding-top: 200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    font-weight: 800;
+    font-size: 26px;
+    position: relative;
+    padding: 0;
+    
+}
+
+.slider {
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 3px solid rgb(91, 22, 156);
+    background-color: rgb(235, 88, 215);
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.arrow {    
+    margin-top: 52px;
+    font-weight: 900;
+    font-size: 40px;
+
+    
+}

@@ -1,0 +1,66 @@
+body, html {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  }
+
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background: rgb(98, 197, 151);
+    color: #ffffff;
+    font-weight: 600px;
+    padding: 15px;
+    cursor: pointer;   
+    
+}
+
+.overlay {
+    position: absolute;
+    margin: 0 auto;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(161, 98, 197, 0.2);
+    z-index: 1000;
+    height: 180px;
+    width: 220px;
+  }
+
+  
+  
+  .content {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 30px;
+      color: rgb(180, 9, 75);
+      font-weight: 800;
+      margin-top: 10%;
+  }
+
+  .close {
+      position: absolute;
+      background: rgb(212, 54, 107);
+      border-radius: 50px;
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 100;
+      padding: 2px 11px;
+      text-decoration: none;
+      right: 0;
+      top: 0;
+      
+  }
